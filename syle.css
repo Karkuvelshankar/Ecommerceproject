@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';font-size: 22px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.nav-home-links{
+    display: flex;
+    column-gap: 10px;
+   
+ 
+}
+.nav-home-links a{
+    text-decoration: none;
+}
+
+.nav-home-links a:hover{
+ text-decoration: underline;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .nav-home-links {
+        display: none;
+    }   
+    .nav-toggle{
+        display: block;
+    }
+
+    .header-img{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+    }
+}
+.sidenav{
+    background-color: #1D232c;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    color: white;
+    transition: 1s;
+}
+
+.side-nav-home-links a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.side-nav-home-links a:hover{
+    text-decoration: underline;
+}
+
+
+.header{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+}
+
+
+.header button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#1D232c;
+    color: white;
+}
+
+.service{
+    padding: 20px;
+}
+.service-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.service-container2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+.service-container2 div{
+    background-color: #F2F4F7;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+.new-arrivals{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.new1{
+    flex-basis: 20%;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+.new-arrivals button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.search{
+    text-align: center;
+}
+
+.search input{
+    width: 70%;
+    height: 40px;
+}
+
+.search button{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #1D232c;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.footer{
+    background-color: #1D232c;
+    color: #F2F4F7;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 50px;
+    height: 150px;
+}
+
+
+.product-contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.product-search{
+text-align: center;
+}
+
+.product-search input{
+    width: 70%;
+    height: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: medium;
+    padding: 10px;
+}
+
+
+.product-iteam{
+    flex-basis: 20%;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+.div-container{
+    background-color: #1D232c;
+    padding: 100px;
+    width: 50%;
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+
+
+#mess-box{
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: large;
+}
+
+#name-box{
+    width: 100%;
+    height: 10px;
+    padding: 20px;
+    font-size: large;
+}
+
+
+#email-box{
+    width: 100%;
+    height: 10px;
+    padding: 20px;
+    font-size: large;
+}
+
+.text-area-box button{ 
+padding-left: 20px;
+padding-right:20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+.text-area-box button:hover{
+background-color: darkblue;
+cursor: pointer;
+
+}
